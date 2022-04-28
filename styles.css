@@ -4,24 +4,44 @@ body {
 }
 
 header {
-
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: -20px;
+    background-color: rgb(208, 18, 18);
 }
 
 h1 {
     text-align: center;
-    color: yellow;
+    color: rgb(255, 225, 0);
+}
+main {
+    margin-top: -20px;
+    background-color: rgb(255, 225, 0);
 }
 
 nav {
     text-align: center;
 }
 
+nav li {
+    display: inline-block;
+    padding-top: 25px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
 nav ul li a {
-    color:red
+    color:rgb(208, 18, 18);
+    font-weight: bolder;
+    font-size: larger;
+    text-decoration: none;
+    font-variant: small-caps;
 }
 
 #bio {
     text-align: center;
     margin-left: 25%;
     margin-right: 25%;
+    color: rgb(208, 18, 18);
+    font-weight: bold;
 }
