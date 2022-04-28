@@ -1,0 +1,27 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+
+}
+
+h1 {
+    text-align: center;
+    color: yellow;
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul li a {
+    color:red
+}
+
+#bio {
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
