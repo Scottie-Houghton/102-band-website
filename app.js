@@ -6,13 +6,12 @@ function taste () {
     let guessBand = prompt("Dude! " + band + " rock!! Can you guess my favorite band?");
     if (guessBand.toLowerCase() == "talking heads") {
         guessBand = prompt("Actually, they're my 2nd favorite band. So close! Why don't you try again.");
-    } else if (guessBand.toLowerCase() != "queen") {
-        guessBand = prompt("Nope, but they rock, too! Try again.");
+    } 
+    while (guessBand.toLowerCase() != "queen") {
+        guessBand = prompt("Nope, but they rock, too! Try again. (Hint: Don't feel like you're 'Under Pressure,' I believe in you!)");
     }
     return guessBand
 }
-
-let scottiesBand = taste ()
 
 function firstTry (scottiesBand) {
     if (scottiesBand.toLowerCase() == "queen") {
@@ -24,5 +23,12 @@ function firstTry (scottiesBand) {
     }
     return scottiesBand
 }
+let scottiesBand = taste ()
 
 firstTry (scottiesBand)
+
+let rock = prompt("On a scale of 1 - 10, how dizzy do you get from headbanging?");
+
+for (let i = 0; i < rock; i++) {
+    document.write("<img id='freddie' src='https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F20%2F2020%2F02%2Fgettyimages-823663584_preview.jpg&q=60' />")
+}
